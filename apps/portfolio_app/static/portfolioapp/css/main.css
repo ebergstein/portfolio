@@ -1,0 +1,64 @@
+.{
+	margin: 0px;
+	padding: 0px;
+}
+#mainwrapper{
+	background-color: darkgrey;
+	border-radius: 2px;
+	padding: 5px;
+}
+#header{
+	font-family: Courier;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 2px;
+}
+#content{
+	text-align: center;
+	font-family: Arial;
+	background-color: ghostwhite;
+	padding: 1px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#contact.p{
+	display: inline-block;
+	background-color: azure;
+	
+}
+#contact{
+	font-family: Arial;
+	text-align: center;
+	width: 29%;
+	vertical-align: top;
+	background-color: ghostwhite;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 3px;
+	margin-left: 35%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: scroll;
+}
+#projects{
+	text-align: center;
+}
+.project{
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	border: 2px solid black;
+	border-radius: 2px;
+	padding: 5px;
+	margin: auto;
+	width: 20%;
+	height: 200px;
+	overflow: scroll;
+	background-color: white;
+	font-family: Comic Sans MS;
+}
+img{
+	max-width: 50%;
+	max-height: 50%;
+}

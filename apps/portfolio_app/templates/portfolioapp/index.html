@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  	<meta charset="UTF-8">
+  	{% load staticfiles %}
+  	<link rel="stylesheet" type="text/css" href="{% static 'portfolioapp/css/main.css' %}">
+  </head>
+  <body>
+  	<div id = "mainwrapper">
+  		<div id = "header">
+  			<h1>Ezra Bergstein's Portfolio</h1>
+  		</div>
+  		<div id = "content">
+  			<p>Hi, Welcome to my portfolio.</p>
+  			<p>I am a junior software developer, and I like programming because I like learning about how new programs work.</p>
+  			<p>My projects are listed below, with links to each of them.</p>
+  			<p>If you want to contact me, my contact details are below.</p>
+  		</div>
+  		<div id = "projects">
+  			<div class = "project">
+  				<img src="../../static/portfolioapp/images/Dnd.png" alt="dnd">
+  				<p></p>
+  				<a href = "http://52.53.179.234/">Dungeons & Dragons Website</a>
+  				<p>This was a website that I made with two teammates in Django to help with one of the teammate's D&D sessions.</p>
+  				<p>It allows people to look up spell, monster, and class information, store their characters & update them, and has a forum.  My main part of the project was the forum.</p>
+  			</div>
+  			<div class = "project">
+  				<img src="../../static/portfolioapp/images/RollingOnwards.png" alt="dnd">
+  				<p></p>
+  				<a href = "https://itunes.apple.com/us/app/rolling-onwards/id1257832015">Rolling Onwards</a>
+  				<p>The first app that I ever uploaded to the iOS app store.</p>
+  				<p>This has its roots in a project that I made for a coding competition.  We were given a basic framework that could read motion from a physical device's gyrometer through CoreMotion, and had to make a game with it.</p>
+  				<p>It was supposed to be a team project, but my teammates were unable to participate.</p>
+  				<p>As a result, I had to come up with something as simple as possible for the competition.</p>
+  				<p>Rolling a ball around the screen was something that seemed very simple, and just checking if the ball rolled off the edge of the screen meant that I would not have to invest very much time in learning about collision detection.</p>
+  				<p>It did take a while for me to figure out how to roll the ball, but once that was done, I was able to get the basic framework of the game complete in time.<p>
+  				<p>This project ended up winning that competition because the experience was fun, and bug-free.</p>
+  				<p>I have since expanded it into a full game, which you can download for yourself!</p>
+  			</div>
+  			<div class = "project">
+  				<img src="../../static/portfolioapp/images/Movies.png" alt="dnd">
+  				<p></p>
+  				<a href = "http://13.56.207.5">Movie Review Website</a>
+  				<p>This was a website that I made in MEAN to see if I could figure out how to implement an api via AJAX into a MEAN project.</p>
+  				<p>Users can post reviews of movies, see what other users reviewed, and look up information about the movie that was in a review.</p>
+  			</div> 
+  			<div class = "project">
+  				<img src="../../static/portfolioapp/images/Ecommerce.png" alt="dnd">
+  				<p></p>
+  				<a href = "http://52.53.244.232/">Mock E-Commerce Website</a>
+  				<p>I made this website with Spring to get a handle on implementing apis into Spring, as well as figuring out how to use the Spring api.</p>
+  				<p>Users can add products to a cart and then "purchase" them with a fake payment made with one of Spring's testing cards.</p>
+  			</div>   			
+  		</div>
+  		<div id = "contact">
+  			<h3>Contact Details</h3>
+  			<p>Phone: 818-235-2339</p>
+  			<p>Email: ebergstein@sbcglobal.net</p>
+  			<p><a href = "https://www.linkedin.com/in/ezra-bergstein-32a08a1a/">LinkedIn</a></p>
+  		</div>
+	</div>
+  </body>
+</html>
